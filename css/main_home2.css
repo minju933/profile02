@@ -1,0 +1,62 @@
+/* main_home 시작*/
+#home{
+    background-color: #d9e3f7;
+    color:var(--color-text);
+    padding: 5rem 1rem;
+    padding-top: 7rem;
+    text-align: center;
+    height: 1300px;
+}
+.home_avatar{
+    width:250px;
+    height:250px;
+    object-fit: cover;
+    border-radius: 100%;
+    border:3px solid var(--color-accent)
+}
+.section_title{
+    font-size: 6.25rem;
+    margin-bottom: 1rem;
+    
+}
+.section_title2{   
+    font-family: 'Orbit', sans-serif;
+    font-size: 15pt;
+    font-family: 'SUITE-Regular';
+
+}
+    .home_title_strong1{
+        color: transparent;
+        background: linear-gradient( to right bottom,#f7b7e9 0%,  #ad39f0 100%);
+        -webkit-background-clip: text;
+        font-family: 'Lilita One', sans-serif;
+      
+    }
+    .home_title_strong2{
+        color: transparent;
+        background: linear-gradient( to right bottom,#f7b7e9 0%,  rgb(237, 240, 57) 100%);
+        -webkit-background-clip: text;
+        font-family: 'Lilita One', sans-serif;
+    }
+    .section_description{
+        font-size:1.3rem;
+    }
+    .section_contact{
+        display: inline-block;
+        margin: 1rem;
+        padding:0.5rem 1rem;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: all 1s;
+    }
+    .section_contact:hover{
+        background-color: transparent;
+        color: var(--color-text);
+        outline: 2px solid var(--color-accent);
+    }
+    
+    .home_container{
+        text-align: left;
+        padding: 100px;
+
+    }

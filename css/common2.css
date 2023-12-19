@@ -1,0 +1,23 @@
+.section_style{
+    text-align: center;
+    padding:4rem;
+    
+}
+
+/*아래 내용은 미리 설정한 css 내용입니다.*/
+.section_title{
+    font-size: 5rem;
+    margin: 1rem 0;
+   
+    
+}
+.section_description {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+
+
+h2{
+    margin-top: 30px;
+}

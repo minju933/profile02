@@ -1,0 +1,23 @@
+/* footer 시작 */
+#contact{
+    
+    color:#bf73eb;
+}
+.contact_all{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 1rem;
+    margin-top: 3em;
+    
+}
+.contact_box {
+
+    gap: 5rem;
+    padding: 1rem;
+    margin-top: 3em;
+    background: rgb(255, 226, 255);
+    border-radius: 50px;
+
+}
