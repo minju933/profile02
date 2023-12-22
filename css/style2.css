@@ -20,7 +20,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'roboto', sans-serif;
+    font-family: 'Montserrat';
     margin:0;
     padding:0;
 }
@@ -52,6 +52,10 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+.header.header-dark {
+    background-color: rgb(255, 255, 255,0.5);
+}
+
 .header_logo{
     display:flex;
     align-items: center;
@@ -86,6 +90,9 @@ a{
 }
 .header_menu_item:hover{
     border-bottom: 1px solid #ad39f0;
+}
+.hamburger{
+    display:none;
 }
 
 /* Skills 시작*/
@@ -162,4 +169,5 @@ a{
     margin: 1rem;
     
 }
+
 

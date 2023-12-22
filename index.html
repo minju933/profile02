@@ -47,7 +47,10 @@
     <link href="./css/work2.css" type="text/css" rel="stylesheet">
     <link href="./css/footer.css" type="text/css" rel="stylesheet">
     <link href="./css/top.css" type="text/css" rel="stylesheet">
-    
+    <link href="./css/media_768.css" type="text/css" rel="stylesheet">
+   
+    <!--javascript 시작-->
+    <script type="module" src="./js/main.js"defer></script>
 
     <!--js파일 연결-->
     <script src="./js/main.js" defer>
@@ -64,28 +67,28 @@
 <body>
    <!--header 시작-->
    <header class="header">
-    <div class="header_logo">
-        <h1>
-            <a href="#"> MINJU</a>
-        </h1>
-    </div>
-    <nav class="header_nav">
-        <ul class="header_menu">
-                <li><a class="header_menu_item active" href="#home">Home</a></li>
-                <li><a class="header_menu_item" href="#about">Profile</a></li>
-                <li><a class="header_menu_item" href="#skills">Skills</a></li>
-                <li><a class="header_menu_item" href="#work">Work</a></li>
-                <li><a class="header_menu_item" href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    
-    
-    <!--햄버거 버튼 pc화면에서는 display:none;-->
-    <div class="hamburger">
-        <span class="material-symbols-outlined">
-            menu
-            </span>
-    </div>
+        <div class="header_logo">
+            <h1>
+                <a href="#"> MINJU</a>
+            </h1>
+        </div>
+        <nav class="header_nav">
+            <ul class="header_menu">
+                    <li><a class="header_menu_item active" href="#home">Home</a></li>
+                    <li><a class="header_menu_item" href="#about">Profile</a></li>
+                    <li><a class="header_menu_item" href="#skills">Skills</a></li>
+                    <li><a class="header_menu_item" href="#work">Work</a></li>
+                    <li><a class="header_menu_item" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        
+        <!--햄버거 버튼 pc화면에서는 display:none;-->
+        <div class="hamburger">
+            <span class="material-symbols-outlined">
+                menu
+                </span>
+        </div>
    </header>
 
 
@@ -107,32 +110,12 @@
 
         <!--About 시작-->
         <section id="about" class="section_style max-container">
-            <h2> Profile </h2>
+            <h2 class="title"> Profile </h2>
            
             <ul class="about_content">
-                <li class="about_box">
-                    
-                    <span class="material-symbols-outlined about_icon"style="font-size:4rem;">
-                        captive_portal
-                        </span>
-                    <p class="about_title">Front-end</p>
-                    <p class="about_text">HTML,CSS,JavaScript,TypeScript,React </p>
-                </li>
+                <li class="about_box"></li>
+                  
 
-                <li class="about_box">
-                    <span class="material-symbols-outlined about_icon"style="font-size:4rem;">
-                        devices
-                        </span>
-                    <p class="about_title">Design</p>
-                    <p class="about_text">Photoshop,Illust,Figma</p>
-                </li>
-                <li class="about_box">
-                    <span class="material-symbols-outlined about_icon"style="font-size:4rem;">
-                        group
-                        </span>
-                    <p class="about_title">Web 관련 외</p>
-                    <p class="about_text">Marketing,Language,etc</p>
-                </li>
             </ul>
         </section>
 
