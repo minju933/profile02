@@ -100,6 +100,7 @@ a{
     background: linear-gradient(#d9e3f7,rgb(210, 235, 210));
     color: var(--color-text);
     width: 100%;
+  
 }
 /* skills bar 시작*/
 .skills_bar{
@@ -140,12 +141,14 @@ a{
     padding: 1rem;
     background-color:rgb(255, 255, 255,0.5);
     filter: brightness(150%);
+    border-radius: 1rem 0rem 0rem 1rem;
 }
 .skills_tools{
     grid-area: b;
     padding: 1rem;
     background-color:rgb(255, 255, 255,0.5);
     filter: brightness(150%);
+    border-radius: 0rem 1rem 1rem 0rem;
 }
 
 
