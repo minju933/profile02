@@ -1,6 +1,6 @@
 /* Work 시작 */
 #work {
-    background-color: var(--color-primary);
+    background: linear-gradient(rgb(210, 235, 210),rgb(248, 242, 187));
     color: var(--color-text);
 }
 button{

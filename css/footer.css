@@ -1,7 +1,6 @@
 /* footer 시작 */
 #contact{
-    
-    color:#bf73eb;
+    background: linear-gradient(rgb(248, 242, 187),#f3d3d3);
 }
 .contact_all{
     display:flex;

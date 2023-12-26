@@ -6,9 +6,9 @@
 
 /*아래 내용은 미리 설정한 css 내용입니다.*/
 .section_title{
-    font-size: 5rem;
-    margin: 1rem 0;
-   
+    font-size: 10rem;
+    margin: 5rem 0;
+    
     
 }
 .section_description {
@@ -19,5 +19,9 @@
 
 
 h2{
-    margin-top: 30px;
+    margin-top: 25px;
+    color:black;
+}
+.section_title2{
+    color:rgb(158, 100, 185);
 }
