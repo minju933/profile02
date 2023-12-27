@@ -68,29 +68,37 @@
         grid-template-areas:
         "a"
         "b"
-        "c"
+        "c";
     }
     .skills_coding{
         grid-area: a;
         padding: 1rem;
-        background-color: var(--color-primary);
+        background-color:rgba(255, 255, 255, 0.5);
+        border-radius: 1rem;
+
     }
+
     .skills_tools {
         grid-area: b;
         padding: 1rem;
-        background-color: var(--color-primary);
+        background-color: rgba(255, 255, 255, 0.5);
         filter: brightness(100%);
+        border-radius: 1rem;
+       margin-top: 10px;
+        width:100%;
+        
     }
     .skills_etc {
         grid-area: c;
         padding: 1rem;
         background-color: var(--color-primary);
         filter: brightness(100%);
+       
     }
     /* My Work */
     .category {
         display: flex;
-        flex-direction: column;
+        flex-flow:column nowrap;
         justify-content: center;
         background: transparent;
     }
