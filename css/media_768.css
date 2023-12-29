@@ -127,4 +127,9 @@
         bottom: 1rem;
         transform: scale(0.8);
 }
+.section_title{
+    font-size: 80px;
+    margin-bottom: 1rem;
+    
+}
 }

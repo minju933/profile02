@@ -52,7 +52,7 @@
     .section_contact:hover{
         background-color: transparent;
         color: var(--color-text);
-        outline: 2px solid var(--color-accent);
+        outline: 2px solid  rgb(241, 211, 77);
     }
     
     .home_container{
