@@ -1,0 +1,97 @@
+.section_style {
+    margin: 0 auto;
+}
+.about_content {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2.5rem 0;
+}
+.about_box {
+    width: 100%;
+    height: auto;
+    padding: 100px;
+    color: rgb(54, 54, 54);
+    border-radius: 1rem;
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.2);
+    display: flex;
+    background-color: rgb(255, 255, 255,0.5);
+}
+    .box_profile_left {
+        position: relative;
+        float: left;
+        font-family: 'Jua', sans-serif;
+        font-size: 2em;
+    }
+    .box_profile_right {
+        position: relative;
+        float: left;
+        padding-top: 10px;
+        margin-left: 100px;
+        width: 100%;
+        font-size: 12.5pt;
+        font-family: 'IBM Plex Sans KR', sans-serif;
+
+        display: grid;
+        grid-template-columns: repeat(2, minmax(380px, auto));
+        grid-template-rows: repeat(3, 300px);
+    }
+        .right_text {
+            position: relative;
+            float: left;
+            width: 380px;
+            text-align: left;
+            padding: 0 30px;
+            margin-bottom: 50px;
+        }
+                .text_bold {
+                    font-weight: 600;
+                    font-size: 18px;
+                    font-family: 'Orbit', sans-serif;
+                }
+        .age_email {
+            width: 500px;
+            position: relative;
+            float: right;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            padding: 0 30px;
+            margin-bottom: 50px;
+        }
+        .myskills {
+            width: 500px;
+            float: left;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            padding: 0 30px;
+            align-items: left;
+        }
+        .skills_icon {
+            width: 330px;
+            position: relative;
+            float: left;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+        }
+            .skills_icon li {
+                padding: 30px;
+            }
+                .a:hover{
+                    border-radius: 10px;
+                    filter: drop-shadow(10px 5px 10px #a5ade9);
+                }
+                .ai >:hover{
+                    filter: drop-shadow(10px 5px 10px #fecc86);
+                }
+                .pig > :hover{
+                    filter: drop-shadow(10px 5px 10px #deb2f5);
+                }
+                .html > :hover{
+                    filter: drop-shadow(10px 5px 10px #f2bd92);
+                }
+                .css > :hover{
+                    filter: drop-shadow(10px 5px 10px #91c4e3);
+                }

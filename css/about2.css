@@ -12,23 +12,16 @@
 
     .about_box{
         width: 90.5%;
-        height:800px;
+        height:auto;
         background-color: rgb(255, 255, 255,0.5);
         padding: 2rem 1rem;
         color: rgb(54, 54, 54);
         border-radius: 1rem;
-        cursor: default;
         box-shadow: 0 3px 10px rgba(255, 255, 255, 0.2);
         font-size: 2em;
-        font-family: 여기어때 잘난체;
         line-height: 1.5em;
-      
-      
-
-    }
-    .about_box > span:hover{
-        transform: rotate(-15deg) scale(1.2);
-        
+        font-family: 'Jua', sans-serif;
+        display: flex;
     }
     .about_icon{
         font-size: 4rem;
@@ -44,18 +37,24 @@
     
     /* profile photo*/
     .box_profile_left{
+        width: 70%;
         height: 100%;
-        float: left;
-        padding: 2.6rem 1rem;
+        padding: 2.6rem;
+    }
+    .profile_img {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
     }
   
     .profile_headline{
         width:320px;
         height:170px;
-        margin: 3.875rem auto;
+        margin: 5% auto;
     }
 
     .box_profile_right {
+        width: 100%;
         height: 100%;
         float: left;
         padding: 2.6rem 1rem;
@@ -67,7 +66,103 @@
         height: 300px;
         padding: 3em 0;
         line-height: 1.4;
-        opacity: 0;
+        font-size: 12.5pt;
+        text-align: left;
+        font-family: 'IBM Plex Sans KR', sans-serif;
+    }
+    .right_text > span {
+        display: block;
+        font-weight: 600;
+        font-size: 18px;
+        font-family: 'Orbit', sans-serif;
+        
+    }
+       
+    .age_email{
+        position: relative;
+        float: left;
+        margin: 51.2px 30px 0px 0px;
+        padding: 23px 0px 0px;
+        text-align: left;     
     }
 
+.age_email > p > span {
+    display: block;
+    font-size: 20px;
+    font-family: 'Orbit', sans-serif;
+    font-weight: 600;
+    
+}
 
+.age_email > p {
+    display: block;
+    line-height: 1.3;
+    font-size: 12.5pt;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+      
+}
+
+.myskills{
+    position: relative;
+    clear: both;
+    width:470px;
+    margin: 64px 0px 0px;
+}
+
+.myskills > h3 {
+    position: relative;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 16px;
+}
+.skills_icon{
+    width: 300px;
+    height: 72px;
+}
+.photo{
+    float: left;
+    margin-right: 48px;
+    margin-top: 26px;
+}
+.a:hover{
+    border-radius: 10px;
+    filter: drop-shadow(10px 5px 10px #a5ade9);
+}
+.ai{
+    float: left;
+    margin-right: 48px;
+    margin-top: 26px;
+}
+.ai >:hover{
+    filter: drop-shadow(10px 5px 10px #fecc86);
+}
+.pig{
+    float: left;
+    margin-right: 48px;
+    margin-top: 26px;
+}
+.pig > :hover{
+    filter: drop-shadow(10px 5px 10px #deb2f5);
+}
+.html{
+    float: left;
+    margin-right: 48px;
+    margin-top: 26px;
+}
+.html > :hover{
+    filter: drop-shadow(10px 5px 10px #f2bd92);
+}
+.css{
+    float: left;
+    margin-right: 48px;
+    margin-top: 26px;
+}
+.css > :hover{
+    filter: drop-shadow(10px 5px 10px #91c4e3);
+}
+   

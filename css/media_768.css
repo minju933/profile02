@@ -1,4 +1,4 @@
-@media all and (max-width: 768px) {
+@media all and (max-width: 990px) {
     .section {
         padding: 3rem 2rem;
     }
@@ -22,8 +22,6 @@
         flex-flow: column;
         align-items: start;
         background-color: rgba(255, 255, 255, 0.5);
-
-       
     }
 
     .header_nav {
@@ -51,13 +49,48 @@
         border: 0;
     }
     /* about 부분*/
+    .about_box {
+        min-width: 500px;
+        display: grid;
+        grid-template-rows: 500px 700px;
+        grid-template-columns: 500px;
+        grid-template-areas:
+        'a'
+        'b';
+        justify-content: center;
+    }
     .about_content {
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
-    .about_box {
-        width:100%;
+    .box_profile_right{
+        grid-area: b;
+        position: relative;
+        clear: both;
+        margin: 0 auto;
+        padding: 0;
+        display: grid;
+        grid-template-areas: 
+            "c"
+            "d"
+            "e";
+        grid-template-columns: 500px;
+        grid-template-rows: 300px 150px 250px;
     }
+    .right_text{
+        margin-top: 0;
+        grid-area: c;
+        width: 500px;
+        height: 300px;
+        line-height: 30px;
+        font-size: 12.5pt;
+        text-align: center;
+        font-family: 'IBM Plex Sans KR', sans-serif;
+        padding: 50px 0 0 0;
+    }
+   
+
     /* skills 부분*/
     .skills_content {
         display: grid;
@@ -69,7 +102,14 @@
         "a"
         "b"
         "c";
+      
     }
+    .skills_icon{
+        width: 300px;
+        height: 72px;
+        margin: 0 auto;
+    }
+    
     .skills_coding{
         grid-area: a;
         padding: 1rem;
@@ -84,7 +124,7 @@
         background-color: rgba(255, 255, 255, 0.5);
         filter: brightness(100%);
         border-radius: 1rem;
-       margin-top: 10px;
+        margin-top: 10px;
         width:100%;
         
     }
@@ -118,18 +158,74 @@
         display: flex;
         flex-direction: column; 
     }
+
     .testimonial_each:nth-child(even) .testimonial_img{
         order: 0;
     }
+
     /* Top 버튼*/
     .arrow_up {
         right: 1rem;
         bottom: 1rem;
         transform: scale(0.8);
 }
+
 .section_title{
     font-size: 80px;
     margin-bottom: 1rem;
+}
+
+.age_email{
+    grid-area: d;
+    clear: both;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 30px 0 0 0;
+    text-align: center;
+    float: none;
+}
+
+
+.myskills {
+    grid-area: e;
+    width: 500px;
+    margin: 30px 0 0 15px;
+}
+
+
+.myskills > h3 {
+    margin: 0 auto;
     
+}
+
+.box_profile_left{
+    grid-area: a;
+    width: 100%;
+    padding: 0;
+    height: 500px;
+}
+
+.profile_img {
+    height: auto;
+    margin: 0 auto;
+}
+.profile_headline {
+    width: 100%;
+    margin: 0;
+}
+
+.profile_headline {
+    width:500px;
+    height:150px;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.photo{
+    display: flex;
+    justify-content: space-between;
+   
 }
 }
