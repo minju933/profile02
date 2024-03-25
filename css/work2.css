@@ -62,6 +62,7 @@ button:focus {
             position: relative;
             border-radius: 10px;
             overflow: hidden;
+
         }
             .project_img{
                 width: 100%;
@@ -109,3 +110,6 @@ button:focus {
                 height: 2px;
                 background-color: var(--color-accent);
             }
+
+
+
