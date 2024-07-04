@@ -1,5 +1,5 @@
 /* Work 시작 */
-#work {
+#design {
     background: linear-gradient(rgb(210, 235, 210),rgb(248, 242, 187));
     color: var(--color-text);
 }
@@ -62,14 +62,12 @@ button:focus {
             position: relative;
             border-radius: 10px;
             overflow: hidden;
-            
 
         }
             .project_img{
                 width: 100%;
                 height: 400px;
                 object-fit: cover;
-                object-position: 0 0;
                 
             }
             .project_img:hover{
